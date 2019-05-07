@@ -24,6 +24,7 @@ transport:
 
 provisioner:
   name: chef_zero
+  accept_license: true
 
 verifier:
   name: inspec
