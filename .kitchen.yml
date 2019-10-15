@@ -12,13 +12,15 @@ driver:
     Name: "Chef Training Node for <YOURNAME>, Rees"
     created-by: "test-kitchen"
     user: administrator
-    X-Contact: <%= ENV['USER'] %>
-    X-Application: <%= ENV['X_APPLICATION'] %>
-    X-Customer: "Test-Kitchen"
-    X-Project: "Test-Kitchen"
-    X-Termination-Date: "2019-07-20T12:04:30Z"
-    X-TTL: 4
-
+    X-Contact: "Anthony Rees"
+    X-Application: "APAC"
+    X-Dept: "Sales"
+    X-Customer: "Rees"
+    X-Project: "BJC-Demo"
+    X-Termination-Date: "2020-07-20T12:04:30Z"
+    TTL: 20
+    X-TTL: 20
+    
 transport:
     username: administrator
     ssh_key:  ~\.ssh\id_rsa
